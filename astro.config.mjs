@@ -7,6 +7,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://faireborn.github.io',
-  base: 'homepage',
 	integrations: [mdx(), sitemap()],
 });
